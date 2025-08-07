@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="nl" data-page="blog">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Korte, praktische inzichten over AI, automatisering en groei." />
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config = { theme: { extend: { colors: { charcoal: '#111827', growth: '#10B981' } } } };</script>
+  <title>AI & Groei Inzichten – Blog | LGT Media</title>
+  <style> html, body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, sans-serif; } </style>
+</head>
+<body class="bg-white text-charcoal">
+  <!-- Header -->
+  <header class="sticky top-0 z-40 bg-white/80 backdrop-blur border-b border-gray-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="/index.html" class="flex items-center gap-3">
+          <img src="/assets/logo.svg" alt="LGT Media" class="h-8 w-auto" />
+          <span class="sr-only" data-i18n="common.brand">LGT Media</span>
+        </a>
+        <nav class="hidden md:flex items-center gap-8">
+          <a href="/index.html" class="hover:text-growth" data-i18n="nav.home">Home</a>
+          <a href="/services.html" class="hover:text-growth" data-i18n="nav.services">Diensten</a>
+          <a href="/technology.html" class="hover:text-growth" data-i18n="nav.technology">Technologie</a>
+          <a href="/casestudies.html" class="hover:text-growth" data-i18n="nav.casestudies">Case Studies</a>
+          <a href="/about.html" class="hover:text-growth" data-i18n="nav.about">Over Ons</a>
+          <a href="/blog.html" class="hover:text-growth" data-i18n="nav.blog">Blog</a>
+          <a href="/contact.html" class="hover:text-growth" data-i18n="nav.contact">Contact</a>
+        </nav>
+        <div class="hidden md:flex items-center gap-6">
+          <div class="text-sm text-gray-500">
+            <button class="hover:text-growth" data-lang="en">EN</button>
+            <span class="mx-1 text-gray-300">/</span>
+            <button class="hover:text-growth" data-lang="nl">NL</button>
+          </div>
+          <a href="https://calendly.com/your-handle/growth-call" class="inline-flex items-center px-4 py-2 rounded-md bg-growth text-white font-medium hover:opacity-90" data-i18n="common.ctaBook">Plan een gesprek</a>
+        </div>
+        <button id="mobile-menu-button" class="md:hidden inline-flex items-center justify-center p-2 rounded-md border border-gray-300 text-gray-700" aria-label="Toggle menu">
+          <span data-i18n="common.menu">Menu</span>
+        </button>
+      </div>
+    </div>
+    <div id="mobile-menu" class="md:hidden hidden opacity-0 pointer-events-none border-t border-gray-200 bg-white">
+      <div class="px-4 py-3 space-y-2">
+        <a href="/index.html" class="block" data-i18n="nav.home">Home</a>
+        <a href="/services.html" class="block" data-i18n="nav.services">Diensten</a>
+        <a href="/technology.html" class="block" data-i18n="nav.technology">Technologie</a>
+        <a href="/casestudies.html" class="block" data-i18n="nav.casestudies">Case Studies</a>
+        <a href="/about.html" class="block" data-i18n="nav.about">Over Ons</a>
+        <a href="/blog.html" class="block" data-i18n="nav.blog">Blog</a>
+        <a href="/contact.html" class="block" data-i18n="nav.contact">Contact</a>
+        <div class="flex items-center gap-3 pt-2 border-t border-gray-100">
+          <button class="hover:text-growth" data-lang="en">EN</button>
+          <span class="text-gray-300">/</span>
+          <button class="hover:text-growth" data-lang="nl">NL</button>
+        </div>
+        <a href="https://calendly.com/your-handle/growth-call" class="inline-flex items-center px-4 py-2 rounded-md bg-growth text-white font-medium" data-i18n="common.ctaBook">Plan een gesprek</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h1 class="text-4xl font-bold mb-6" data-i18n="blog.title">AI & Groei Inzichten</h1>
+        <p class="text-gray-600 max-w-3xl" data-i18n="blog.metaDescription">Korte, praktische inzichten over AI, automatisering en groei.</p>
+      </div>
+    </section>
+
+    <section class="py-10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-6">
+        <article class="p-6 rounded-xl border border-gray-200 bg-white" data-reveal>
+          <h3 class="text-xl font-semibold" data-i18n="blog.p1Title">Praktische AI-Agents voor Prospectie</h3>
+          <p class="mt-2 text-gray-600" data-i18n="blog.p1Excerpt">Hoe gerichte agents leads kunnen onderzoeken, verrijken en prioriteren—zonder handmatig werk.</p>
+          <a href="#" class="mt-3 inline-block text-growth font-medium" data-i18n="blog.read">Read</a>
+        </article>
+        <article class="p-6 rounded-xl border border-gray-200 bg-white" data-reveal>
+          <h3 class="text-xl font-semibold" data-i18n="blog.p2Title">Attributie Zonder Drama</h3>
+          <p class="mt-2 text-gray-600" data-i18n="blog.p2Excerpt">Een eenvoudig kader voor betrouwbare tracking in lijn met besluitvorming.</p>
+          <a href="#" class="mt-3 inline-block text-growth font-medium" data-i18n="blog.read">Read</a>
+        </article>
+        <article class="p-6 rounded-xl border border-gray-200 bg-white" data-reveal>
+          <h3 class="text-xl font-semibold" data-i18n="blog.p3Title">Automatiseringswinst die u Deze Week Kunt Shippen</h3>
+          <p class="mt-2 text-gray-600" data-i18n="blog.p3Excerpt">Laag-risico procesautomatiseringen die tijd besparen en cumuleren.</p>
+          <a href="#" class="mt-3 inline-block text-growth font-medium" data-i18n="blog.read">Read</a>
+        </article>
+        <article class="p-6 rounded-xl border border-gray-200 bg-white" data-reveal>
+          <h3 class="text-xl font-semibold" data-i18n="blog.p4Title">Een Scale-bare Lead Engine Ontwerpen</h3>
+          <p class="mt-2 text-gray-600" data-i18n="blog.p4Excerpt">Breng uw funnel in kaart, meet wat telt en itereren op de hoogste-impact hefbomen.</p>
+          <a href="#" class="mt-3 inline-block text-growth font-medium" data-i18n="blog.read">Read</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row items-center justify-between gap-6 p-8 rounded-xl bg-charcoal text-white" data-reveal>
+          <h3 class="text-2xl font-semibold" data-i18n="index.ctaBandTitle">Klaar om te groeien met AI-gestuurde systemen?</h3>
+          <a href="https://calendly.com/your-handle/growth-call" class="inline-flex items-center px-6 py-3 rounded-md bg-growth text-white font-semibold hover:opacity-90" data-i18n="index.ctaBandCta">Plan een gesprek</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-gray-200 py-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-3 gap-8">
+        <div>
+          <img src="/assets/logo.svg" class="h-8 w-auto mb-4" alt="LGT Media" />
+          <p class="text-gray-600" data-i18n="footer.tagline">AI-gedreven groei, samen gebouwd.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-3" data-i18n="footer.quickLinks">Snelle Links</h4>
+          <ul class="space-y-2 text-gray-700">
+            <li><a href="/services.html" class="hover:text-growth" data-i18n="nav.services">Diensten</a></li>
+            <li><a href="/technology.html" class="hover:text-growth" data-i18n="nav.technology">Technologie</a></li>
+            <li><a href="/casestudies.html" class="hover:text-growth" data-i18n="nav.casestudies">Case Studies</a></li>
+            <li><a href="/contact.html" class="hover:text-growth" data-i18n="nav.contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-3" data-i18n="footer.contact">Contact</h4>
+          <p class="text-gray-700">info@lgtmedia.be</p>
+          <div class="mt-4">
+            <a href="https://calendly.com/your-handle/growth-call" class="inline-flex items-center px-4 py-2 rounded-md bg-growth text-white font-medium" data-i18n="common.schedulingCta">Plan via Calendly</a>
+          </div>
+        </div>
+      </div>
+      <div class="mt-8 text-sm text-gray-500">© <span id="year"></span> LGT Media · <span data-i18n="footer.rights">Alle rechten voorbehouden.</span></div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

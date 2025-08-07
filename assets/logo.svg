@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="192" height="48" viewBox="0 0 192 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="LGT Media logo">
+  <rect width="192" height="48" fill="none"/>
+  <!-- Growth mark -->
+  <g>
+    <circle cx="24" cy="24" r="18" fill="#111827"/>
+    <path d="M18 26c4-6 10-8 14-8-2 2-3 4-3 6 3 0 6-1 9-3-2 6-7 11-14 11-3 0-5-1-6-2z" fill="#10B981"/>
+  </g>
+  <!-- Wordmark -->
+  <g font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, sans-serif" font-weight="700" font-size="20" fill="#111827">
+    <text x="56" y="30">LGT</text>
+    <text x="96" y="30" fill="#10B981">Media</text>
+  </g>
+</svg>
